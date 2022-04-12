@@ -23,10 +23,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   REANA an interplanetary project for future society that allows to 
   get up-to-date information about the ecological situation and 
   the safety of the habitat.
-author:
-  name: "Dmitry Marenich"
-  email: "d.marenich@protonmail.ch"
-  url: "https://www.dimareni.ch"
+name:  "Dmitry Marenich"
+email: "d.marenich@protonmail.ch"
+url:   "https://www.dimareni.ch"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dimareni.ch"
 github_username: dimarenich
@@ -46,13 +45,15 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 # exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+        #  - .sass-cache/
+        #  - .jekyll-cache/
+        #  - gemfiles/
+    #  - Gemfile
+    #  - Gemfile.lock
+    #  - node_modules/
+    #  - vendor/bundle/
+    #  - vendor/cache/
+    #  - vendor/gems/
+    #  - vendor/ruby/
+
+
